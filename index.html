@@ -1,99 +1,86 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Engagement Party</title>
-    <meta charset="utf-8">
+
+<head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="generator" content="http://chalarangelo.github.io/htmltemplategenerator/">
-    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
-    <script type="text/javascript">
-      $(function(){
-        console.log('jQuery: Page loading complete!');
-      });
-    </script>
-  </head>
-  
-  <body>
+    <style>
+        body {
+            align-items: center;
+            background-color: #045a29;
+            display: flex;
+            font-family: source sans pro;
+            font-size: 3vw;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            color: #EAD8EA;
+
+            width: 100%;
+            min-height: 100vh;
+            justify-content: center;
+        }
+
+        @media screen and (min-width: 400px) {
+            body {
+                font-size: 15px;
+            }
+        }
+
+
+        img {
+            /* display: inline-block; */
+            /* max-width: 550px; */
+            width: 100%;
+        }
+
+
+
+        .container {
+            margin: 0 auto;
+            text-align: left;
+            max-width: 600px;
+            width: 100%;
+
+
+
+        }
+
+
+        .card {
+            width: 100%;
+            height: auto;
+            position: relative;
+            display: inline-block;
+            border: 1px solid #274827;
+            box-shadow: 3px 2px 5px #274827;
+        }
+
+        .card .img-top {
+            display: none;
+            position: absolute;
+            top: 0;
+            left: 0;
+            z-index: 99;
+        }
+
+        .card:hover .img-top {
+            display: inline;
+        }
+    </style>
+
+</head>
+
+<body>
 
     <div class="container">
-
-
-        <a href="countdown.html">
-          <img src="kevloz engagement invite yay.jpg" alt="Thanks Treenz" class="center"> 
+        <a href="main.html" title="Enter Site">
+            <div class="card">
+                <img src="WelcomePageSVG1.svg" alt="Card Back">
+                <img src="WelcomePageSVG2.svg" class="img-top" alt="Card Front">
+            </div>
         </a>
 
-        
-        <a href="https://forms.gle/dPhEnsr6wt3AsoQt9">RSVP HERE</a>
-
-        <p>JOIN US FOR A FEW ROUNDS OF BAREFOOT BOWLS, SUNSET BEVERAGES AND FOOD TO CELEBRATE OUR SMALL LIFE DECISION.</p>
-        <p>PARTNERS/KIDS/PETS WELCOME</p>
-        <p>FOOD PROVIDED. TAB ON THE BAR. NO BYO IN TO THE VENUE (BUT YOU CAN DRINK IN THE PARK OUTSIDE).</p>
-        <p>DRESS CODE: SMART CASUAL AND/OR WHATEVER YOU LIKE. NO HEELS OR THE GROUNDSKEEPER WILL BE KNOCKING ON OUR DOOR.</p>
-        <p><i>PRESENTS: NOT REQUIRED.</i></p>
-        <p><i>GOOD VIBES: ESSENTIAL.</i></p>
-        <br>
-
-        
-        <img src="just_flower.png" alt="Thanks Treenz" class="centerSmall"> 
-
-
-
-
-
     </div>
+</body>
 
-
-    
-    
-  </body>
 </html>
-
-<style>
-    /* general styling */
-
-
-@font-face {
-  font-family: concourse;
-  src: url('Concourse C3 Regular.ttf');
-}
-
-
-
-.center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 100%;
-}
-
-.centerSmall {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 40%;
-}
-
-.container {
-      color: #d25a42;
-      margin: 0 auto;
-      max-width: 600px;
-      text-align: center;
-    }
-     
-
-body {
-    align-items: center;
-    background-color: #f9f4e0;
-    display: flex;
-    font-family: concourse;
-    } 
-
-
-    img {
-    display: inline-block;
-    width: 100%; // Show 4 images in a row normally
-    height: 100vh;
-}
-
-
-</style>
